@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="index.js"></script>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+
+            <div class="left">
+                <!-- <div class="top2"> -->
+                <h1 class="white bold">Learn to code by watching others</h1>
+
+                <p class="white text">See how experienced developers solve problems in real-time. Watching scripted
+                    tutorials
+                    is great,
+                    but understanding how developers think is invaluable.</p>
+                <!-- </div> -->
+            </div>
+
+
+            <div class="right">
+                <div class="free7">
+                    <p class="white bold">Try it free 7 days</p>
+                    <p class="then"> then $20/mo. thereafter</p>
+                </div>
+
+                <div class="whiteBox">
+
+                    <label for="first-name"></label>
+                    <input class="inp suqa" type="text" id="first-name" pattern=".+@globex\.com" size="30" required
+                        placeholder="First Name">
+
+                        <div class="signS">
+                            <div class="sign" id="first-name-error-msg" style="display:none">
+                                <div class="validation">
+                                    <p  class="em">First Name can not be empty</p> <img src="icon-error.svg" alt="ErrorImage">
+                                </div>
+                            </div>
+                        </div>
+
+                    <label for="last-Name"></label>
+                    <input class="inp  suqa" type="text" id="last-name" pattern=".+@globex\.com" size="30" required
+                        placeholder="Last Name">
+
+                        <div class="signS">
+                            <div class="sign" id="last-name-error-msg" style="display:none">
+                                <div class="validation">
+                                    <p  class="em">Last Name can not be empty</p> <img src="icon-error.svg" alt="ErrorImage">
+                                </div>
+                            </div>
+                        </div>
+
+                    <label for="email"></label>
+                    <input class="inp  suqa" type="email" id="email" pattern=".+@globex\.com" size="30" required
+                        placeholder="Email Address">
+
+                    <div class="signS">
+                        <div class="sign" id="email-error-msg" style="display:none">
+                            <div class="validation">
+                                <p  class="em">Looks like this is not an email</p> <img src="icon-error.svg" alt="ErrorImage">
+                            </div>
+                        </div>
+                    </div>
+
+                    <label for="Password"></label>
+                    <input class="inp  suqa" type="password" id="password" pattern=".+@globex\.com" size="30" required
+                        placeholder="Password">
+                        
+                        <div class="signS">
+                            <div class="sign" id="password-error-msg" style="display:none">
+                                <div class="validation">
+                                    <p class="em">Password can not be empty </p> <img src="icon-error.svg" alt="ErrorImage">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    <button class="claim" id="submit">
+                        CLAIM YOUR FREE TRIAL
+                    </button>
+                      
+
+                    <div class="agree">
+                        <p class="gray tt">By clicking the button, you are agreeing to our</p>
+                        <p class="terms tt">Terms and Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kudzuya">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/Kudzuya" target="_blank">Kudzuya | @Kudzuya</a>
+        </div>
+    </main>
+</body>
+
+</html>
